@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import Regestration from "../RegestrationPage/Regestration";
-import Home from "../Home/Home";
+;
 
 
 export const routes = createBrowserRouter(
@@ -14,7 +14,7 @@ export const routes = createBrowserRouter(
     <Route>
      
       <Route>
-        <Route path="/" element={<Home />} />
+   
         <Route path="/" element={<Regestration />} />
       </Route>
     </Route>,
