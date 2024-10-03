@@ -13,7 +13,7 @@ const Regestration = () => {
       className="bg-cover bg-center h-screen flex items-center justify-center"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="w-[1472px] h-[732px]  border-4 shadow-right-bottom">
+      <div className="w-[1472px] sm:h-[732px]  border-4 shadow-right-bottom">
         <div className="flex h-full">
           <div className="hidden sm:block w-1/2 sm:flex items-center justify-center">
             <img src={regImg} alt="" />
