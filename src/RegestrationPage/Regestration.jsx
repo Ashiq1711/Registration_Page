@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Regestration = () => {
+
   const [currentState, setCurrentState] = useState("Signup");
   return (
     <div
@@ -54,9 +55,10 @@ const Regestration = () => {
                   required
                 />
               </div>
-              <p className=" cursor-pointer">Forfot your password</p>
 
-              <button className="bg-[#D1A054] text-white font-light rounded-lg  py-3 mt-4">
+              <Link className=" cursor-pointer">Forgot your password</Link>
+
+              <button className="bg-[#D1A054] text-white font-light rounded-lg  py-3">
                 {currentState === "Login" ? "Login" : "Sign Up"}
               </button>
               <div className="w-full text-center text-[#D1A054] text-sm mt-[8px]">
@@ -79,17 +81,16 @@ const Regestration = () => {
               <div className="text-center">
                 <p>or sign up with</p>
                 <div className="flex items-center gap-7 justify-center mt-5">
-
-                <Link className="flex items-center justify-center w-10 h-10 border border-gray-500 rounded-full text-black">
-                  <FaFacebookF className="h-6 w-6" />
-                </Link>
-                <Link className="flex items-center justify-center w-10 h-10 border border-gray-500 rounded-full text-black">
-                  <FaGoogle className="h-6 w-6" />
-                </Link>
-                <Link className="flex items-center justify-center w-10 h-10 border border-gray-500 rounded-full text-black">
-                  <FaGithub className="h-6 w-6" />
-                </Link>
-               </div>
+                  <Link className="flex items-center justify-center w-10 h-10 border border-gray-500 rounded-full text-black">
+                    <FaFacebookF className="h-6 w-6" />
+                  </Link>
+                  <Link className="flex items-center justify-center w-10 h-10 border border-gray-500 rounded-full text-black">
+                    <FaGoogle className="h-6 w-6" />
+                  </Link>
+                  <Link className="flex items-center justify-center w-10 h-10 border border-gray-500 rounded-full text-black">
+                    <FaGithub className="h-6 w-6" />
+                  </Link>
+                </div>
               </div>
             </form>
           </div>

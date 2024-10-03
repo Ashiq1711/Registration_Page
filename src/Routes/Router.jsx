@@ -5,7 +5,7 @@ import {
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
-import Regestration from "../RegestrationPage/regestration";
+import Regestration from "../RegestrationPage/Regestration";
 import Home from "../Home/Home";
 
 
@@ -15,7 +15,7 @@ export const routes = createBrowserRouter(
      
       <Route>
         <Route path="/" element={<Home />} />
-        <Route path="/regestration" element={<Regestration />} />
+        <Route path="/registration" element={<Regestration />} />
       </Route>
     </Route>,
   ])
