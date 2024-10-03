@@ -20,7 +20,7 @@ const Regestration = () => {
           </div>
 
           <div className="sm:w-1/2 w-full flex justify-center">
-            <form className="flex flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4">
+            <form className="flex flex-col w-[90%] sm:max-w-96 m-auto mt-14 mb-14 gap-4">
               <div className=" text-center">
                 <p className=" text-3xl font-bold">{currentState}</p>
               </div>
